@@ -1,0 +1,14 @@
+a= input()
+b=int(input())
+c=int(input())
+if a=="+":
+    rez=b+c
+elif a=="-" and b>=c:
+    rez=b-c
+elif a=="-" and c>b:
+    rez=c-b
+elif a=="/":
+    rez=b//c
+elif a=="*":
+    rez=b*c
+print(rez)
